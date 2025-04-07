@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biodata Yola</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #e0f7ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #4ba3c7;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .foto {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .foto img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #cc3399;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .foto img:hover {
+      transform: scale(1.05);
+    }
+
+    .biodata {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      row-gap: 15px;
+      column-gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #cc3399;
+    }
+
+    .value {
+      color: #333;
+    }
+
+    .hobi {
+      margin-top: 20px;
+    }
+
+    .hobi h3 {
+      color: #4ba3c7;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .hobi-list {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .hobi-item {
+      text-align: center;
+    }
+
+    .hobi-item img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .hobi-item img:hover {
+      transform: scale(1.1);
+    }
+
+    .hobi-item p {
+      margin-top: 8px;
+      font-weight: bold;
+      color: #cc3399;
+    }
+
+    .back-img-button {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 10px;
+      transition: transform 0.3s;
+    }
+
+    .back-img-button img {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .back-img-button:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      background-color: #4ba3c7;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BIODATA DIRI</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="foto">
+      <img src="pp.jpg" alt="Foto Yola Indra Cahyani">
+    </div>
+
+    <div class="biodata">
+      <div class="label">Nama Lengkap:</div>
+      <div class="value">Yola Indra Cahyani</div>
+
+      <div class="label">Tempat, Tanggal Lahir:</div>
+      <div class="value">Bogor, 15 Oktober 2000</div>
+
+      <div class="label">Jenis Kelamin:</div>
+      <div class="value">Perempuan</div>
+
+      <div class="label">Alamat:</div>
+      <div class="value">Bukittinggi, Sumatera Barat</div>
+
+      <div class="label">Pendidikan:</div>
+      <div class="value">Universitas Islam Negeri Sjech M. Djamil Djambek Bukittinggi</div>
+
+      <div class="label">Jurusan:</div>
+      <div class="value">Pendidikan Teknik Informatika dan Komputer</div>
+    </div>
+
+    <div class="hobi">
+      <h3>Hobi Saya</h3>
+      <div class="hobi-list">
+        <div class="hobi-item">
+          <img src="menyanyi.jpg" alt="Menyanyi">
+          <p>Menyanyi</p>
+        </div>
+        <div class="hobi-item">
+          <img src="traveling.jpg" alt="Traveling">
+          <p>Traveling</p>
+        </div>
+        <div class="hobi-item">
+          <img src="menari.jpg" alt="Menari">
+          <p>Menari</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tombol Kembali -->
+    <a href="index.html" class="back-img-button">
+      <img src="back.png" alt="Kembali ke Beranda" />
+    </a>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Website Yola kiyowo | Biodata 💖</p>
+  </footer>
+
+</body>
+</html>
